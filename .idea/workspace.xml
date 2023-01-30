@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9725e8f-e34e-4c22-979e-c633aa999cb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lection10/Trening.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lection12/Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lection12/WebDriverPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lection13/ExercisesTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lection14/ExercisesTestsDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lection14/ExercisesTestsWaits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lection15/SearchFildTest.java" afterDir="false" />
+    <list default="true" id="c9725e8f-e34e-4c22-979e-c633aa999cb9" name="Changes" comment="Тестово решение!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +24,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fa9de520-d585-4e9a-9024-57d3d1128094" />
+        <option name="url" value="https://github.com/MetoAnaniev/SearchFieldTestGrope.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -197,7 +195,46 @@
       <option name="presentableId" value="Default" />
       <updated>1674395456209</updated>
     </task>
+    <task id="LOCAL-00001" summary="Тестово решение!">
+      <created>1675077808065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675077808065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="46ecba75-93fb-46a1-ae1b-a565c482f177">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="46ecba75-93fb-46a1-ae1b-a565c482f177" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Тестово решение!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тестово решение!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -63,7 +63,7 @@ public class SearchFildTest {
         searchField.click();
         searchIcon.click();
         searchField.click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 
         WebElement dropDownUser = driver.findElement(By.xpath("//*[text()='TestUserUserUserUser']"));
         dropDownUser.click();

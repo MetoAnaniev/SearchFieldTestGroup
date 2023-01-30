@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9725e8f-e34e-4c22-979e-c633aa999cb9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lection10/Trening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lection12/Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lection12/WebDriverPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lection13/ExercisesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lection14/ExercisesTestsDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lection14/ExercisesTestsWaits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lection15/SearchFildTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2KgTvCCqcMTdskBy7mKHV6t4mQb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lection14" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.SearchFildTest.testSearchField">
+    <configuration name="ExercisesTestsDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMarvenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lection14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lection14" />
+      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsDataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExercisesTestsDataProvider.testLoginWithWaits (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMarvenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lection14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lection14" />
+      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsDataProvider" />
+      <option name="METHOD_NAME" value="testLoginWithWaits" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExercisesTestsDataProvider.testRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMarvenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lection14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lection14" />
+      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsDataProvider" />
+      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExercisesTestsWaits.testLoginWithWaits (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMarvenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lection14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lection14" />
+      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsWaits" />
+      <option name="METHOD_NAME" value="testLoginWithWaits" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFildTest.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMarvenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lection15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lection15" />
+      <option name="MAIN_CLASS_NAME" value="Lection15.SearchFildTest" />
+      <option name="METHOD_NAME" value="testSearchField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SearchFildTest.testSearchField" />
+        <item itemvalue="TestNG.ExercisesTestsDataProvider.testLoginWithWaits (1)" />
+        <item itemvalue="TestNG.ExercisesTestsDataProvider.testRegistration (1)" />
+        <item itemvalue="TestNG.ExercisesTestsWaits.testLoginWithWaits (1)" />
+        <item itemvalue="TestNG.ExercisesTestsDataProvider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9725e8f-e34e-4c22-979e-c633aa999cb9" name="Changes" comment="" />
+      <created>1674395456209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674395456209</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Lection12/Homework.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

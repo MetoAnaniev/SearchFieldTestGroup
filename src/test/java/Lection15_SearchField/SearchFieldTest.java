@@ -1,4 +1,4 @@
-package Lection15;
+package Lection15_SearchField;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class SearchFildTest {
+public class SearchFieldTest {
     public static final String PASSWORD = "metodi86";
     public static final String USERNAME = "m_puh";
     private WebDriver driver;
@@ -63,7 +63,7 @@ public class SearchFildTest {
         searchField.click();
         searchIcon.click();
         searchField.click();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
         WebElement dropDownUser = driver.findElement(By.xpath("//*[text()='TestUserUserUserUser']"));
         dropDownUser.click();

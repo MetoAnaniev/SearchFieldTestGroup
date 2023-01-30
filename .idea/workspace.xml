@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9725e8f-e34e-4c22-979e-c633aa999cb9" name="Changes" comment="Тестово решение!">
+    <list default="true" id="c9725e8f-e34e-4c22-979e-c633aa999cb9" name="Changes" comment="Тестово решение! &#10;wait correction!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lection15/SearchFildTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lection15_SearchField/SearchFieldTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +26,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -86,24 +87,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchFildTest.testSearchField">
-    <configuration name="ExercisesTestsDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstMarvenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lection14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lection14" />
-      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsDataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SearchFieldTest.testSearchField (1)">
     <configuration name="ExercisesTestsDataProvider.testLoginWithWaits (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstMarvenProject" />
       <extension name="coverage">
@@ -158,16 +142,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchFildTest.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchFieldTest.testSearchField (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lection15_SearchField.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lection15_SearchField" />
+      <option name="MAIN_CLASS_NAME" value="Lection15_SearchField.SearchFieldTest" />
+      <option name="METHOD_NAME" value="testSearchField" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFieldTest.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstMarvenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lection15.*" />
+          <option name="PATTERN" value="Lection15_SearchField.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Lection15" />
-      <option name="MAIN_CLASS_NAME" value="Lection15.SearchFildTest" />
+      <option name="MAIN_CLASS_NAME" value="Lection15_SearchField.SearchFieldTest" />
       <option name="METHOD_NAME" value="testSearchField" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -178,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchFildTest.testSearchField" />
+        <item itemvalue="TestNG.SearchFieldTest.testSearchField (1)" />
+        <item itemvalue="TestNG.SearchFieldTest.testSearchField" />
         <item itemvalue="TestNG.ExercisesTestsDataProvider.testLoginWithWaits (1)" />
         <item itemvalue="TestNG.ExercisesTestsDataProvider.testRegistration (1)" />
         <item itemvalue="TestNG.ExercisesTestsWaits.testLoginWithWaits (1)" />
-        <item itemvalue="TestNG.ExercisesTestsDataProvider" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675078649884</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Тестово решение! &#10;wait correction!">
+      <created>1675079715415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675079715415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +261,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Тестово решение!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тестово решение!" />
+    <MESSAGE value="Тестово решение! &#10;wait correction!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тестово решение! &#10;wait correction!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,9 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9725e8f-e34e-4c22-979e-c633aa999cb9" name="Changes" comment="Тестово решение!">
-      <change beforePath="$PROJECT_DIR$/30.01 tedi/Homework Search Filed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30.01 tedi/SearchFieldAutomationTest/SearchFieldAutomationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lection15/SearchFieldAutomationTedi.java" afterDir="false" />
+    <list default="true" id="c9725e8f-e34e-4c22-979e-c633aa999cb9" name="Changes" comment="Тестово решение! &#10;wait correction!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld/American.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld/Bulgarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld/Italian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection2/AreaOfTriangle3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection2/PineTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection2/PrintFullName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection2/TriangleAreaScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection2/TrianglePerimeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection2/quadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection4/DaysOfTheWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection4/ListDivisionOn5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection4/PremishionForWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection4/SalesRevenue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection4/Vacation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection5/BiggestArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection5/MatrixFourRoll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection5/Polindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection5/PrintArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection5/SumOfDiagonalMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection5/reverceSortArrList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection6/Lection6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection7/Constructor/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection7/Constructor/ExercisesConstructors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection7/Exceptions/ExceptionsHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection7/Exceptions/FixThisCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection7/Exceptions/Trenning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection8/Employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection8/Employee/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection8/Shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection8/Shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection8/Shape/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lection8/Shape/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoginPreload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Skillo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Eart/Earth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Eart/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Pets/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Pets/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Pets/Pets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Zoo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Zoo/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Zoo/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/Zoo/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Uprajneniq/javaTrening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lection16/LectureHomeworkAndPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lection15/SearchFildTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lection15/SearchFildTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,17 +119,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/metoa/OneDrive/Documents/GitHub/MyFirstMavenProject/src/main/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Lection14" />
@@ -92,34 +142,17 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.SearchFildTest.testSearchField">
-    <configuration name="ExercisesTestsDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstMarvenProject" />
+    <configuration name="LectureHomeworkAndPractice.testBasicAuth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lection14.*" />
+          <option name="PATTERN" value="Lection16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lection14" />
-      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsDataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExercisesTestsDataProvider.testLoginWithWaits (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstMarvenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lection14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lection14" />
-      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsDataProvider" />
-      <option name="METHOD_NAME" value="testLoginWithWaits" />
+      <option name="PACKAGE_NAME" value="Lection16" />
+      <option name="MAIN_CLASS_NAME" value="Lection16.LectureHomeworkAndPractice" />
+      <option name="METHOD_NAME" value="testBasicAuth" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,17 +160,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExercisesTestsDataProvider.testRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstMarvenProject" />
+    <configuration name="LectureHomeworkAndPractice.testContextMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lection14.*" />
+          <option name="PATTERN" value="Lection16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lection14" />
-      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsDataProvider" />
-      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="PACKAGE_NAME" value="Lection16" />
+      <option name="MAIN_CLASS_NAME" value="Lection16.LectureHomeworkAndPractice" />
+      <option name="METHOD_NAME" value="testContextMenu" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,17 +178,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExercisesTestsWaits.testLoginWithWaits (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstMarvenProject" />
+    <configuration name="LectureHomeworkAndPractice.testDragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lection14.*" />
+          <option name="PATTERN" value="Lection16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lection14" />
-      <option name="MAIN_CLASS_NAME" value="Lection14.ExercisesTestsWaits" />
-      <option name="METHOD_NAME" value="testLoginWithWaits" />
+      <option name="PACKAGE_NAME" value="Lection16" />
+      <option name="MAIN_CLASS_NAME" value="Lection16.LectureHomeworkAndPractice" />
+      <option name="METHOD_NAME" value="testDragAndDrop" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LectureHomeworkAndPractice.testMultipleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lection16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lection16" />
+      <option name="MAIN_CLASS_NAME" value="Lection16.LectureHomeworkAndPractice" />
+      <option name="METHOD_NAME" value="testMultipleWindows" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,7 +215,7 @@
       </method>
     </configuration>
     <configuration name="SearchFildTest.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyFirstMarvenProject" />
+      <module name="MyFirstMavenProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lection15.*" />
@@ -184,10 +235,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SearchFildTest.testSearchField" />
-        <item itemvalue="TestNG.ExercisesTestsDataProvider.testLoginWithWaits (1)" />
-        <item itemvalue="TestNG.ExercisesTestsDataProvider.testRegistration (1)" />
-        <item itemvalue="TestNG.ExercisesTestsWaits.testLoginWithWaits (1)" />
-        <item itemvalue="TestNG.ExercisesTestsDataProvider" />
+        <item itemvalue="TestNG.LectureHomeworkAndPractice.testMultipleWindows" />
+        <item itemvalue="TestNG.LectureHomeworkAndPractice.testDragAndDrop" />
+        <item itemvalue="TestNG.LectureHomeworkAndPractice.testContextMenu" />
+        <item itemvalue="TestNG.LectureHomeworkAndPractice.testBasicAuth" />
       </list>
     </recent_temporary>
   </component>
@@ -244,14 +295,36 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
+    <option name="RECENT_FILTERS">
       <map>
-        <entry key="46ecba75-93fb-46a1-ae1b-a565c482f177" value="TOOL_WINDOW" />
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -266,6 +339,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/Lection12/Homework.java</url>
           <line>25</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Lection16/LectureHomeworkAndPractice.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

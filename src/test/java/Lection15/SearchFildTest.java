@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
@@ -24,51 +26,109 @@ public class SearchFildTest {
     }
 
     @BeforeMethod
-    protected final void setUpTest() {
+    protected final void LogIn(){
         this.driver = new ChromeDriver();
         this.driver.manage().window().maximize();
 
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        driver.get("http://training.skillo-bg.com:4300/posts/all");
+        WebElement login = driver.findElement(By.id("nav-link-login"));
+        login.click();
+
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4300/users/login"));
+
+
+        WebElement signInTitle = driver.findElement(By.xpath("//p[text()='Sign in']"));
+        wait.until(ExpectedConditions.visibilityOf(signInTitle));
+
+
+        WebElement userNameField = driver.findElement(By.id("defaultLoginFormUsername"));
+        userNameField.sendKeys("teddy");
+
+        WebElement passwordField = driver.findElement(By.id("defaultLoginFormPassword"));
+        passwordField.sendKeys("123456");
+
+        WebElement signButton = driver.findElement(By.id("sign-in-button"));
+        wait.until(ExpectedConditions.elementToBeClickable(signButton));
+        signButton.click();
+
+        WebElement homeLink = driver.findElement(By.id("nav-link-home"));
+        wait.until(ExpectedConditions.visibilityOf(homeLink));
+    }
+
+    @AfterMethod
+    protected final void tearDownTest() {
+        if (this.driver != null) {
+            this.driver.close();
+        }
     }
 
     @Test
     public void testSearchField() {
 
-        // LogIn the profile page, so we can find Search field
-        driver.get("http://training.skillo-bg.com:4200/posts/all");
-        WebElement loginLink = driver.findElement(By.id("nav-link-login"));
-        loginLink.click();
-
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4200/users/login"));
-
-        WebElement signInElement = driver.findElement(By.xpath("//*[text()='Sign in']"));
-        wait.until(ExpectedConditions.visibilityOf(signInElement));
-
-        WebElement userNameField = driver.findElement(By.id("defaultLoginFormUsername"));
-        userNameField.sendKeys(USERNAME);
-        WebElement passwordField = driver.findElement(By.id("defaultLoginFormPassword"));
-        passwordField.sendKeys(PASSWORD);
-
-        WebElement signInButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("sign-in-button")));
-        signInButton.click();
-
         // finding the Search field
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
         WebElement searchField = driver.findElement(By.id("search-bar"));
-        wait.until(ExpectedConditions.visibilityOf(searchField));
-        searchField.sendKeys("TestUserUserUserUser");
-        WebElement searchIcon = driver.findElement(By.cssSelector("#navbarColor01 > form > i"));
-        searchIcon.click();
-        searchField.click();
-        searchIcon.click();
-        searchField.click();
+        searchField.sendKeys("MARIELKATA");
+
+
+        WebElement userMarielkata = driver.findElement(By.partialLinkText("MARIELKATA"));
+
+        wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+        wait.until(ExpectedConditions.visibilityOf(userMarielkata));
+        userMarielkata.click();
+        wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4300/users/32"));
+        //driver.close();
+    }
+
+    @Test
+    public void testSearchFieldProfilePage() {
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebElement profileLink = driver.findElement(By.id("nav-link-profile"));
+        profileLink.click();
+
+        wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4300/users/3927"));
+
+        Boolean isTextDisplayed = wait.until(ExpectedConditions.textToBe(By.tagName("h2"), "teddy"));
+        Assert.assertTrue(isTextDisplayed, "The username is not displayed");
+
+        WebElement searchFieldOnProfilePage = driver.findElement(By.id("search-bar"));
+        searchFieldOnProfilePage.sendKeys("MARIELKATA");
+
+        WebElement userMarielkata1 = driver.findElement(By.partialLinkText("MARIELKATA"));
+
+        wait.until(ExpectedConditions.visibilityOf(userMarielkata1));
+        userMarielkata1.click();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4300/users/32"));
+    }
+
+    @Test
+    public void testSearchFieldNewPostPage() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebElement newPostLink = driver.findElement(By.id("nav-link-new-post"));
+        newPostLink.click();
+
+        wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4300/posts/create"));
+        Boolean isPostTitleDisplayed = wait.until(ExpectedConditions.textToBe(By.tagName("h3"), "Post a picture to share with your awesome followers"));
+        Assert.assertTrue(isPostTitleDisplayed, "The New Post page is not displayed");
+
+        WebElement searchFieldOnNewPostPage = driver.findElement(By.id("search-bar"));
+        searchFieldOnNewPostPage.sendKeys("MARIELKATA");
+
+        WebElement userMarielkata2 = driver.findElement(By.partialLinkText("MARIELKATA"));
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.visibilityOf(userMarielkata2));
+        userMarielkata2.click();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4300/users/32"));
 
-        WebElement dropDownUser = driver.findElement(By.xpath("//*[text()='TestUserUserUserUser']"));
-        dropDownUser.click();
-        wait.until(ExpectedConditions.urlToBe("http://training.skillo-bg.com:4200/users/31"));
-
-        driver.close();
+        //driver.close();
     }
 }
